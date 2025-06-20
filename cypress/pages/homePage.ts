@@ -1,4 +1,4 @@
-export default class initialPage {
+export default class homePage {
 
     public inputSearch = () => cy.get("input[id='cb1-edit']");
     public firtsOptionSearch = () => cy.get('#cb1-opt1-1');

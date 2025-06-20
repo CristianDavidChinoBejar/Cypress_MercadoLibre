@@ -1,6 +1,8 @@
 import homePage from '../pages/homePage'
+import productPage from '../pages/productPage'
 
 const home = new homePage();
+const product = new productPage();
 
 describe('Tests E2E en la pagina de productos de Mercado Libre Argentina', () => {
     beforeEach(() => {
@@ -8,9 +10,8 @@ describe('Tests E2E en la pagina de productos de Mercado Libre Argentina', () =>
     });
 
     it('Verificar que la busqueda de celular se realice correctamente', () => {
-        // home.inputSearch().type('celular');
         cy.searchProduct('celular');
-        cy.wait(6000);
         home.firtsOptionSearch().should('be.visible').click()
+        product.productTitle().should('contain.text', 'Celular');
     });
 })
