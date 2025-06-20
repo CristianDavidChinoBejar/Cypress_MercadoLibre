@@ -42,17 +42,3 @@ cypress-typescript-project
    ```
    npx cypress run
    ```
-
-## Usage
-
-- The sample test located in `cypress/e2e/sample.cy.ts` demonstrates how to write end-to-end tests using Cypress commands.
-- Custom commands can be defined in `cypress/support/commands.ts` and will be available throughout your tests.
-- Global configurations for tests can be set in `cypress/support/e2e.ts`.
-
-## Reporting
-
-This project is configured to generate test reports. You can customize the reporting options in the `cypress.config.ts` file.
-
-## License
-
-This project is licensed under the MIT License.

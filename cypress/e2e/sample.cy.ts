@@ -1,6 +1,6 @@
-import ExamplePage from '../pages/examplePage';
+import initialPage from '../pages/initialPage';
 
-const examplePage = new ExamplePage();
+const pageInicial = new initialPage();
 
 describe('Tests E2E en la pagina inicial de Mercado Libre Argentina', () => {
     beforeEach(() => {
@@ -11,10 +11,14 @@ describe('Tests E2E en la pagina inicial de Mercado Libre Argentina', () => {
     });
 
     it('Validar que el input de busqueda este habilitado', () => {
-        examplePage.validateEnableInputSearch();
+        pageInicial.validateEnableInputSearch();
     });
 
     it('Validar que el input de busqueda contenga el placeholder correcto', () => {
-        cy.get("input[id='cb1-edit']").should('have.attr', 'placeholder', 'Buscar productos, marcas y más...');
-    }); 
+        pageInicial.inputSearch().should('have.attr', 'placeholder', 'Buscar productos, marcas y más…');
+    });
+
+    it('Validar que el input de busqueda contenga el atributo autocomplete', () => {
+        pageInicial.inputSearch().should('have.attr', 'autocomplete', 'off');
+    });
 });
