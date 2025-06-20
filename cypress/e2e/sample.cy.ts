@@ -13,4 +13,8 @@ describe('Tests E2E en la pagina inicial de Mercado Libre Argentina', () => {
     it('Validar que el input de busqueda este habilitado', () => {
         examplePage.validateEnableInputSearch();
     });
+
+    it('Validar que el input de busqueda contenga el placeholder correcto', () => {
+        cy.get("input[id='cb1-edit']").should('have.attr', 'placeholder', 'Buscar productos, marcas y más...');
+    }); 
 });
