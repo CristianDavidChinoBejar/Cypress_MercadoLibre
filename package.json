@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Tests en la pagina oficial de Mercado Libre Argentina",
   "scripts": {
-    "test": "cypress run",
-    "open": "cypress open",
+    "test": "cypress run --browser chrome",
+    "open": "cypress open --browser chrome --e2e",
     "report": "cypress run --reporter mochawesome"
   },
   "devDependencies": {
