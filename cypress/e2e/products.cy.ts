@@ -15,7 +15,7 @@ describe('Tests E2E en la pagina de productos de Mercado Libre Argentina', () =>
         product.productTitle().should('contain.text', 'Celular');
     });
 
-    it.only('Validar el orden del listado de opciones Marca', () => {
+    it('Validar el orden del listado de opciones Marca', () => {
         cy.searchProduct('celular');
         home.firtsOptionSearch().should('be.visible').click();
         product.brandList().should('be.visible')
