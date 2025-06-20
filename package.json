@@ -1,0 +1,19 @@
+{
+  "name": "tests_mercadolibre",
+  "version": "1.0.0",
+  "description": "Tests en la pagina oficial de Mercado Libre Argentina",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "report": "cypress run --reporter mochawesome"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0",
+    "typescript": "^4.0.0",
+    "mochawesome": "^6.0.0",
+    "ts-loader": "^9.0.0"
+  },
+  "cypress": {
+    "testFiles": "**/*.cy.ts"
+  }
+}

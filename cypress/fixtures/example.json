@@ -1,0 +1,20 @@
+{
+  "sampleKey": "sampleValue",
+  "user": {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  "items": [
+    {
+      "id": 101,
+      "name": "Item 1",
+      "price": 9.99
+    },
+    {
+      "id": 102,
+      "name": "Item 2",
+      "price": 19.99
+    }
+  ]
+}
