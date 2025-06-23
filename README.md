@@ -1,6 +1,6 @@
 # Cypress TypeScript Project
 
-This project is a setup for end-to-end testing using Cypress with TypeScript. It includes sample tests, custom commands, and configuration files to help you get started quickly.
+This project is a setup for end-to-end testing using Cypress with TypeScript. It includes sample tests, custom commands, and configuration files.
 
 ## Project Structure
 
