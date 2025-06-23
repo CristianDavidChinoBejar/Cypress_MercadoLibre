@@ -8,7 +8,8 @@ This project is a setup for end-to-end testing using Cypress with TypeScript. It
 cypress_test_basic
 ├── cypress
 │   ├── e2e
-│   │   └── sample.cy.ts        # Sample end-to-end test
+│   │   └── home.cy.ts
+│   │   └── products.cy.ts
 │   ├── support
 │   │   ├── commands.ts         # Custom Cypress commands
 │   │   └── e2e.ts              # Global configurations for tests
