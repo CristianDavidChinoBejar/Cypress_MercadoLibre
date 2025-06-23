@@ -25,7 +25,7 @@ cypress-typescript-project
 1. **Clone the repository:**
    ```
    git clone <repository-url>
-   cd cypress-typescript-project
+   cd <name-project>
    ```
 
 2. **Install dependencies:**
