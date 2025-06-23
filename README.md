@@ -5,7 +5,7 @@ This project is a setup for end-to-end testing using Cypress with TypeScript. It
 ## Project Structure
 
 ```
-cypress-typescript-project
+cypress_test_basic
 ├── cypress
 │   ├── e2e
 │   │   └── sample.cy.ts        # Sample end-to-end test
