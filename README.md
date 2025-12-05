@@ -36,10 +36,10 @@ cypress_test_basic
 
 3. **Run Cypress:**
    ```
-   npm run open
+   npx run open
    ```
 
 4. **Run tests in headless mode:**
    ```
-   npm run test
+   npx run test
    ```
